@@ -1,0 +1,278 @@
+/* Navbar */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: #660e60;
+  border-radius: 5px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  display: flex;
+  margin-right: 20px;
+  gap: 50px;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: auto;
+}
+
+.navbar .menu i {
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.submenu li {
+  padding: 10px;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.submenu li a:hover {
+  background-color: #660e60;
+  color: white;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+  width: 200px;
+}
+
+.dropdown1 {
+  margin-left: 5px !important;
+  vertical-align: middle;
+}
+
+/* --------------------------------------------------------------- */
+
+.Header {
+  background-image: url("../Images/Header.png");
+  background-size: 35%;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 180px 150px;
+  text-align: left;
+  position: relative;
+}
+
+.button {
+  background-color: #660e60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  color: #660e60;
+  background-color: white;
+  border: #660e60 1px solid;
+}
+
+/* ------------------------------------- */
+
+/* Container 2: */
+
+.Heading {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  color: #660e60;
+}
+.ITServices {
+  display: flex;
+  text-align: center;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+
+.ITServices2 {
+  display: flex;
+  text-align: center;
+  padding: 50px 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.Services{
+  background-color: #f9f9f9;
+  box-shadow: 0 0px 10px #893f71;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.Services:hover {
+  color: #660e60;
+  transform: translateY(-10px);
+}
+
+.p1 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* ------------------------------------- */
+
+/* Container 3: */
+
+.Container3 {
+  background-color: #893f71;
+  /* justify-content: space-between; */
+  display: flex;
+}
+
+.Heading2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  color: #660e60;
+}
+
+.LeftSide {
+  /* text-align: center; */
+  margin: 30px;
+  padding: 110px 20px 0px 40px; /* Added padding for better spacing */
+  align-items: center;
+}
+
+.LeftSide p{
+  transition: all 0.3s ease;
+}
+
+.LeftSide p:hover{
+  color: white;
+}
+
+.RightSide img {
+  display: block;
+  height: 400px;
+  padding: 80px;
+}
+
+/* Container 4: */
+
+.Heading3 {
+  text-align: center;
+  font-size: 40px;
+  color: #660e60;
+}
+
+.all-reviews {
+  background-color: #ffffff;
+  padding: 60px 50px;
+  /* max-width: 1200px; */
+}
+
+.Container4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.reviews {
+  background-color: #f9f9f9;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0px 10px #893f71;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.reviews:hover {
+  color: #660e60;
+  transform: translateY(-10px);
+}
+
+/* -------------------------------- */
+
+/* Container5 */
+
+.footer {
+  background-color: white;
+  color: white;
+  padding: 20px 50px 60px 50px;
+  /* text-align: center; */
+}
+
+.container5{
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+}
+
+
+
+.content a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.content a:hover {
+  color: #9d1594;
+  text-decoration: none;
+}
+
+.SM{
+  color: black;
+}
